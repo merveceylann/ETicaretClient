@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule.forChild([
-      { path: "x", component: CustomerComponent } 
+      { path: "", component: CustomerComponent } 
     ]) 
     //her bir componente karsilik modulu seviyesinde bir rota belirlenmis oldu
   ]
