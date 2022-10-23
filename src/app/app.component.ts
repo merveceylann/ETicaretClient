@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'ETicaretClient';
 }
 
-$(document).ready(()=>{
-  alert("jquery test")
-}
-)
+// $(document).ready(()=>{
+//   alert("jquery test")
+// }
+// )
