@@ -16,26 +16,28 @@ export class AppComponent {
   //     toastr.success("Burak","Test")
   // }
 
-  constructor(private toastrService: CustomToastrService){
-    // toastrService.message("Burak","Test",ToastrMessageType.Info, ToastrPosition.BottomCenter);
-    toastrService.message("Burak","Test",{
-      messageType: ToastrMessageType.Info,
-      position: ToastrPosition.BottomCenter
-    });
-    toastrService.message("Burak","Test",{
-      messageType: ToastrMessageType.Success,
-      position: ToastrPosition.TopFullWidth
-    });
-    toastrService.message("Burak","Test",{
-      messageType: ToastrMessageType.Error,
-      position: ToastrPosition.BottomLeft
-    });
-    toastrService.message("Burak","Test",{
-      messageType: ToastrMessageType.Warning,
-      position: ToastrPosition.BottomRight
-    });
+//   constructor(private toastrService: CustomToastrService){
+//     // toastrService.message("Burak","Test",ToastrMessageType.Info, ToastrPosition.BottomCenter);
+//     toastrService.message("Burak","Test",{
+//       messageType: ToastrMessageType.Info,
+//       position: ToastrPosition.BottomCenter
+//     });
+//     toastrService.message("Burak","Test",{
+//       messageType: ToastrMessageType.Success,
+//       position: ToastrPosition.TopFullWidth
+//     });
+//     toastrService.message("Burak","Test",{
+//       messageType: ToastrMessageType.Error,
+//       position: ToastrPosition.BottomLeft
+//     });
+//     toastrService.message("Burak","Test",{
+//       messageType: ToastrMessageType.Warning,
+//       position: ToastrPosition.BottomRight
+//     });
+// }
+constructor(){
+  
 }
-
 }
 
 // $(document).ready(()=>{
